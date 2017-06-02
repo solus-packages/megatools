@@ -1,0 +1,21 @@
+name       : megatools
+version    : 1.9.98
+release    : 1
+source     :
+    - https://github.com/megous/megatools/archive/1.9.98.tar.gz : 8e8614d7c29dc00fc47999d2a47372ae115635df9f30779fe32032f1a7289cec
+license    : GPL-2.0
+component  : network.download
+summary    : Command line tools for accessing MEGA cloud storage
+description: |
+    Megatools is a collection of programs for accessing Mega service from the command line. It
+    allows you to copy individual files as well as entire directory trees to and from the cloud.
+    You can also perform streaming downloads without needing to download the entire file.
+builddeps  :
+    - pkgconfig(libcurl)
+    - asciidoc
+setup      : |
+    %autogen
+build      : |
+    %make
+install    : |
+    %make_install

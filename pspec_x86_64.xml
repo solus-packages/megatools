@@ -1,0 +1,40 @@
+<PISI>
+    <Source>
+        <Name>megatools</Name>
+        <Packager>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federicodamiansch@gmail.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>network.download</PartOf>
+        <Summary xml:lang="en">Command line tools for accessing MEGA cloud storage</Summary>
+        <Description xml:lang="en">Megatools is a collection of programs for accessing Mega service from the command line. It
+allows you to copy individual files as well as entire directory trees to and from the cloud.
+You can also perform streaming downloads without needing to download the entire file.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>megatools</Name>
+        <Summary xml:lang="en">Command line tools for accessing MEGA cloud storage</Summary>
+        <Description xml:lang="en">Megatools is a collection of programs for accessing Mega service from the command line. It
+allows you to copy individual files as well as entire directory trees to and from the cloud.
+You can also perform streaming downloads without needing to download the entire file.
+</Description>
+        <PartOf>network.download</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-06-02</Date>
+            <Version>1.9.98</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federicodamiansch@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
