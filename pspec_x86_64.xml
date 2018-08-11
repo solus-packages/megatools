@@ -1,11 +1,12 @@
 <PISI>
     <Source>
         <Name>megatools</Name>
+        <Homepage>https://megatools.megous.com/</Homepage>
         <Packager>
-            <Name>Federico Damián Schonborn</Name>
-            <Email>federicodamiansch@gmail.com</Email>
+            <Name>Simon Friend</Name>
+            <Email>simbiotiqu@gmail.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>network.download</PartOf>
         <Summary xml:lang="en">Command line tools for accessing MEGA cloud storage</Summary>
         <Description xml:lang="en">Megatools is a collection of programs for accessing Mega service from the command line. It
@@ -23,18 +24,41 @@ You can also perform streaming downloads without needing to download the entire 
 </Description>
         <PartOf>network.download</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="executable">/usr/bin/megacopy</Path>
+            <Path fileType="executable">/usr/bin/megadf</Path>
+            <Path fileType="executable">/usr/bin/megadl</Path>
+            <Path fileType="executable">/usr/bin/megaget</Path>
+            <Path fileType="executable">/usr/bin/megals</Path>
+            <Path fileType="executable">/usr/bin/megamkdir</Path>
+            <Path fileType="executable">/usr/bin/megaput</Path>
+            <Path fileType="executable">/usr/bin/megareg</Path>
+            <Path fileType="executable">/usr/bin/megarm</Path>
+            <Path fileType="doc">/usr/share/doc/megatools/HACKING</Path>
+            <Path fileType="doc">/usr/share/doc/megatools/INSTALL</Path>
+            <Path fileType="doc">/usr/share/doc/megatools/LICENSE</Path>
+            <Path fileType="doc">/usr/share/doc/megatools/NEWS</Path>
+            <Path fileType="doc">/usr/share/doc/megatools/README</Path>
+            <Path fileType="doc">/usr/share/doc/megatools/TODO</Path>
+            <Path fileType="man">/usr/share/man/man1/megacopy.1</Path>
+            <Path fileType="man">/usr/share/man/man1/megadf.1</Path>
+            <Path fileType="man">/usr/share/man/man1/megadl.1</Path>
+            <Path fileType="man">/usr/share/man/man1/megaget.1</Path>
+            <Path fileType="man">/usr/share/man/man1/megals.1</Path>
+            <Path fileType="man">/usr/share/man/man1/megamkdir.1</Path>
+            <Path fileType="man">/usr/share/man/man1/megaput.1</Path>
+            <Path fileType="man">/usr/share/man/man1/megareg.1</Path>
+            <Path fileType="man">/usr/share/man/man1/megarm.1</Path>
+            <Path fileType="man">/usr/share/man/man5/megarc.5</Path>
+            <Path fileType="man">/usr/share/man/man7/megatools.7</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-06-02</Date>
-            <Version>1.9.98</Version>
+        <Update release="2">
+            <Date>2018-08-11</Date>
+            <Version>1.10.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Federico Damián Schonborn</Name>
-            <Email>federicodamiansch@gmail.com</Email>
+            <Name>Simon Friend</Name>
+            <Email>simbiotiqu@gmail.com</Email>
         </Update>
     </History>
 </PISI>
