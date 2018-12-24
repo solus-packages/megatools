@@ -1,8 +1,8 @@
 name       : megatools
 version    : 1.10.2
-release    : 2
+release    : 3
 source     :
-    - https://megatools.megous.com/builds/megatools-1.10.2.tar.gz : 179e84c68e24696c171238a72bcfe5e28198e4c4e9f9043704f36e5c0b17c38a
+    - https://github.com/megous/megatools/archive/1.10.2.tar.gz : 48468536492bfecd8b10a42e7608129eba9922e03cbce0a11dd9e338e2a0632d
 license    : GPL-2.0-or-later
 component  : network.download
 homepage   : https://megatools.megous.com/
@@ -15,7 +15,7 @@ builddeps  :
     - pkgconfig(libcurl)
     - asciidoc
 setup      : |
-    %configure
+    %reconfigure
 build      : |
     %make
 install    : |
