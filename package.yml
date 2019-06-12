@@ -2,7 +2,7 @@ name       : megatools
 version    : 1.10.2
 release    : 3
 source     :
-    - https://github.com/megous/megatools/archive/1.10.2.tar.gz : 48468536492bfecd8b10a42e7608129eba9922e03cbce0a11dd9e338e2a0632d
+    - https://megatools.megous.com/builds/megatools-1.10.2.tar.gz : 48468536492bfecd8b10a42e7608129eba9922e03cbce0a11dd9e338e2a0632d
 license    : GPL-2.0-or-later
 component  : network.download
 homepage   : https://megatools.megous.com/
